@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.top-bar {
+    background: orange;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.porn {
+    color: black;
+}
+
+.hub {
+    background: orange;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.apparel {
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+    color: black;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icons i, .icons span {
+    font-size: 16px;
+    cursor: pointer;
+}
+.img img{
+    width: 100%;
+}
+.collection {
+    padding: 50px 20px;
+}
+
+.collection h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.product p {
+    font-size: 16px;
+    color: #333;
+}
+.container {
+    display: flex;
+    width: 1300px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.image-section {
+    flex: 1;
+}
+.image-section img {
+    width: 100%;
+    border-radius: 10px;
+}
+.text-section {
+    flex: 1;
+    padding: 20px;
+}
+.text-section h2 {
+    font-size: 40px;
+    color: #222;
+}
+.text-section p {
+    font-size: 30px;
+    color: #555;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.footer {
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+.footer a {
+    color: #000000;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer-links {
+    text-align: left;
+    display: inline-block;
+    margin-right: 50px;
+}
+.subscribe {
+    display: inline-block;
+}
+.subscribe input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+}
+.subscribe button {
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.payment-icons img {
+    width: 40px;
+    margin: 5px;
+}
+.footer {
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+.footer a {
+    color: #000000;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer-links {
+    text-align: left;
+    display: inline-block;
+    margin-right: 50px;
+}
+.subscribe {
+    display: inline-block;
+}
+.subscribe input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+}
+.subscribe button {
+    background-color: orange;
+    color: rgb(59, 38, 38);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.payment-icons img {
+    width: 40px;
+    margin: 5px;
+}
+.footer-bottom {
+    margin-top: 20px;
+}
+.back-to-top {
+    background-color: orange;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
